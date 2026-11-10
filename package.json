@@ -1,0 +1,14 @@
+{
+  "name": "listrelay",
+  "version": "0.1.0",
+  "description": "Posts the subjects of new cs3157 listserv emails from Gmail to a Slack channel as your own Slack account.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  }
+}
